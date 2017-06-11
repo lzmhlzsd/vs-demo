@@ -8,8 +8,8 @@ var _ = require( 'underscore' );
 var rf = require( "fs" );
 
 app.use( express.static( path.join( __dirname, 'web' ) ) );
-server.listen( 3000, function () {
-    console.log( 'server staring..., port: 3000' );
+server.listen( 5000, function () {
+    console.log( 'server staring..., port: 5000' );
 } );
 
 app.get( '/demo', function ( req, res ) {
