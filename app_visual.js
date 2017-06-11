@@ -82,7 +82,7 @@ app.post( '/getAlarmInfo', function ( req, res ) {
     for ( var i = 0; i < parseInt( req.query.num ); i++ ) {
         var ra1 = Math.round( Math.random() * 22 + 1 )
         var ra2 = Math.round( Math.random() * 99 + 1 )
-        var name = 'A' + numformate( ra1 )
+        var name = 'A0' + numformate( ra1 )
         var alarm = 'AR' + numformate( ra2 )
         var time = date.getTime() - i * Math.round( Math.random() * 5 + 1 ) * 60 * 1000
         result.data.list.push( {
