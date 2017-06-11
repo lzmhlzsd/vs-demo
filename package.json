@@ -1,0 +1,20 @@
+{
+  "name": "visual20161111",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress --hide-modules --config webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "request": "^2.76.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "webpack": "^2.3.2"
+  }
+}

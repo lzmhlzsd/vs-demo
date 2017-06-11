@@ -1,0 +1,32 @@
+html,body{
+	height: 100%;
+	overflow-y: hidden;
+	background-color: #252424;
+	margin: 0px;
+}
+div{
+	box-sizing: border-box;
+}
+.row {
+	width: 100%;
+}
+.row:before, .row:after{
+	display: table;
+    content: " ";
+}
+.row:after{
+	clear: both;
+}
+.row .col{
+	float: left;
+	border: 0px solid red;
+	height: 100%
+}
+.title{
+	font-size: 2rem;
+	color: #ffffff;
+}
+.particles-js-canvas-el{
+	position: absolute;
+    top: 0;
+}

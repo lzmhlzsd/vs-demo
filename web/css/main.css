@@ -1,0 +1,322 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    font-size: 12px;
+    ;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', 'Hiragino Sans GB', 'WenQuanYi Micro Hei', 'Microsoft Yahei', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0px;
+    overflow: hidden;
+}
+
+@font-face {
+    font-family: 'MyNewFont';
+    /*字体名称*/
+    src: url('./../font/TEC_1A.TTF') format('truetype');
+    /*字体源文件*/
+}
+
+@font-face {
+    font-family: 'NumFont';
+    /*字体名称*/
+    src: url('./../font/digital-display-tfb.ttf') format('truetype');
+    /*字体源文件*/
+}
+
+@font-face {
+    font-family: 'MFLiHei';
+    /*字体名称*/
+    src: url('./../font/MFLiHei.ttf') format('truetype');
+    /*字体源文件*/
+}
+.header{
+    font-family: 'MFLiHei';
+    font-size: 4rem;
+    font-style: italic;
+    color: #fc6640;
+}
+.num {
+    font-family: 'NumFont';
+    font-size: 5rem;
+    font-style: italic;
+}
+
+.container {
+    /*width: 1920px;
+    height: 1080px;*/
+    background: url('./../img/bg.jpg') no-repeat center top;
+    /*background-position: center center;*/
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.header {
+    border-bottom: 1px solid #0475ec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    /*height: 1000px;*/
+    border: 0px solid #00ff00;
+    display: flex;
+}
+
+.content>div {
+    height: 100%;
+    border: 0px solid #0000ff;
+}
+
+.content .left {
+    width: 18%;
+}
+
+.content .center {
+    width: 66%;
+}
+
+.content .right {
+    width: 18%;
+}
+
+.title-header {
+    /*height: 50px;*/
+    border: 0px solid #0000ff;
+    color: #fff;
+    padding: 0rem .5rem;
+    font-size: 1.6rem;
+    display: flex;
+    align-items: center;
+}
+
+.content-body {
+    border: 0px solid #ffff00;
+    padding: 0 .5rem;
+}
+
+.content-body .border {
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    position: relative;
+    overflow: hidden;
+}
+
+.line-top {
+    position: absolute;
+    border-top: 1px solid #0475ec;
+    width: 100%;
+}
+
+.line-right {
+    position: absolute;
+    border-right: 1px solid #0475ec;
+    right: 0;
+    bottom: 2.9rem;
+    top: 0;
+}
+
+.line-bottom {
+    position: absolute;
+    border-top: 1px solid #0475ec;
+    bottom: 0;
+    right: 2.8rem;
+    left: 0rem;
+}
+
+.line-left {
+    position: absolute;
+    border-right: 1px solid #0475ec;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.center .title-header,
+.center .content-body {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.coner1 {
+    position: absolute;
+    top: -0.3rem;
+    width: 6rem;
+    left: 0;
+}
+
+.coner2 {
+    position: absolute;
+    bottom: 0;
+}
+
+.triangle_border_se {
+    width: 4rem;
+    height: 4rem;
+    border-top: 1px solid #0475ec;
+    position: absolute;
+    bottom: -1.9rem;
+    right: -1.9rem;
+    transform: rotate(-45deg);
+}
+
+.area1-row {
+    flex-grow: 1;
+    margin: 0 1rem;
+    font-size: 1.2rem;
+}
+
+.title-name {
+    color: #fc6640;
+    font-size: 1.3rem;
+    margin: .5ƒrem;
+}
+
+.table-header td {
+    border-bottom: 1px solid #0475ec;
+    padding-bottom: .5rem;
+}
+
+.alarm-list tbody td {
+    color: #ffffff;
+    font-size: 1.3rem;
+    padding: .5rem 0;
+}
+
+.status-area {
+    width: 10rem;
+    height: 12rem;
+    border: 0px solid red;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.status-area ul {
+    list-style: none;
+    color: #ffffff;
+    font-size: 1.2rem;
+}
+
+.status-area ul li {
+    margin-bottom: .5rem;
+}
+
+.status-flag {
+    width: 1rem;
+    height: 1rem;
+    border-radius: .5rem;
+    display: inline-block;
+    margin-right: .5rem;
+}
+.status-flag.status0 {
+    background: #ff0000;
+}
+
+.status-flag.status2 {
+    background: #00ff00;
+}
+.status-area .status0 {
+    background: #ff0000;
+}
+
+.status-area .status1 {
+    background: #ffff00;
+}
+
+.status-area .status2 {
+    background: #00ff00;
+}
+
+.status-area .status3 {
+    background: #cdcdcd;
+}
+
+.status-area .status4 {
+    background: #fc6640;
+}
+
+.echart-area{
+    height: 100%;
+}
+
+.loading {
+    width: 100%;
+    height: 100%;
+    color: #a09f9f;
+    font-size: 4rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.swiper-slide{
+    padding: .5rem 1rem;
+}
+.swiper-slide .title-name{
+    text-align: center;
+    padding: .5rem;
+    border-bottom: 1px solid #0475ec;
+}
+.swiper-slide ul{
+    list-style: none;
+    color: #ffffff;
+    padding: 0;
+}
+.swiper-slide li{
+    display: flex;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+.swiper-slide span{
+    display: inline-block;
+}
+.swiper-slide .s1{
+    width: 20%;
+}
+.swiper-slide .s2{
+    width: 60%;
+}
+.swiper-slide .s3{
+    width: 20%;
+    padding-left: .5rem;
+}
+.swiper-slide .top-map{
+    background: #41506d;
+    border: 1px solid #41506d;
+    height: 1.5rem;
+}
+.swiper-slide .top-map-value{
+    height: 100%;
+}
+/*.run-top .top-map-value{
+    background: #f4b73a;
+}
+.alarm-top .top-map-value{
+    background: #fc6640;
+}*/
+.ratio-tool{
+    list-style: none;
+    color: #fff;
+}
+.ratio-tool li{
+    display: flex;
+    align-items: center;
+    padding: .3rem 0;
+}
+.ratio-tool li span:nth-child(2){
+    margin-right: 1rem;
+}
+/*.loading div {
+    margin-top: 15%;
+}*/
