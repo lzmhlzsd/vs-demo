@@ -12,7 +12,7 @@ server.listen( 5000, function () {
     console.log( 'server staring..., port: 5000' );
 } );
 
-app.get( '/demo', function ( req, res ) {
+app.get( '/', function ( req, res ) {
     res.sendFile( __dirname + '/web/demo.html' );
 } );
 app.get( '/test', function ( req, res ) {
