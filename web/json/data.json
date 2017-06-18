@@ -2,7 +2,7 @@
     "id": "A_CNC001",
     "bind_id": "",
     "bind_no": "",
-    "name": "",
+    "name": "jiagongzhongxin",
     "url": "model/jiagongzhongxin/jiagongzhongxin.dae",
     "scale": {
         "x": 0.3,
@@ -29,7 +29,7 @@
     "id": "A_CNC002",
     "bind_id": "",
     "bind_no": "",
-    "name": "",
+    "name": "jiagongzhongxin",
     "url": "model/jiagongzhongxin/jiagongzhongxin.dae",
     "scale": {
         "x": 0.3,
@@ -56,7 +56,7 @@
     "id": "A_CNC003",
     "bind_id": "",
     "bind_no": "",
-    "name": "",
+    "name": "jiagongzhongxin",
     "url": "model/jiagongzhongxin/jiagongzhongxin.dae",
     "scale": {
         "x": 0.3,
@@ -83,7 +83,7 @@
     "id": "A_CNC004",
     "bind_id": "",
     "bind_no": "",
-    "name": "",
+    "name": "jiagongzhongxin",
     "url": "model/jiagongzhongxin/jiagongzhongxin.dae",
     "scale": {
         "x": 0.3,
@@ -110,7 +110,7 @@
     "id": "A_CNC005",
     "bind_id": "",
     "bind_no": "",
-    "name": "",
+    "name": "jiagongzhongxin",
     "url": "model/jiagongzhongxin/jiagongzhongxin.dae",
     "scale": {
         "x": 0.3,
@@ -137,7 +137,7 @@
     "id": "A_CNC006",
     "bind_id": "",
     "bind_no": "",
-    "name": "",
+    "name": "jiagongzhongxin",
     "url": "model/jiagongzhongxin/jiagongzhongxin.dae",
     "scale": {
         "x": 0.3,
@@ -164,7 +164,7 @@
     "id": "A_CNC007",
     "bind_id": "",
     "bind_no": "",
-    "name": "",
+    "name": "jiagongzhongxin",
     "url": "model/jiagongzhongxin/jiagongzhongxin.dae",
     "scale": {
         "x": 0.3,
@@ -191,7 +191,7 @@
     "id": "A_CNC008",
     "bind_id": "",
     "bind_no": "",
-    "name": "",
+    "name": "jiagongzhongxin",
     "url": "model/jiagongzhongxin/jiagongzhongxin.dae",
     "scale": {
         "x": 0.3,
@@ -218,7 +218,7 @@
     "id": "A_CNC009",
     "bind_id": "",
     "bind_no": "",
-    "name": "",
+    "name": "jiagongzhongxin",
     "url": "model/jiagongzhongxin/jiagongzhongxin.dae",
     "scale": {
         "x": 0.3,
@@ -245,7 +245,7 @@
     "id": "A_CNC010",
     "bind_id": "",
     "bind_no": "",
-    "name": "",
+    "name": "jiagongzhongxin",
     "url": "model/jiagongzhongxin/jiagongzhongxin.dae",
     "scale": {
         "x": 0.3,
@@ -272,7 +272,7 @@
     "id": "A_CNC011",
     "bind_id": "",
     "bind_no": "",
-    "name": "",
+    "name": "jiagongzhongxin",
     "url": "model/jiagongzhongxin/jiagongzhongxin.dae",
     "scale": {
         "x": 0.3,
@@ -299,7 +299,7 @@
     "id": "A_CNC012",
     "bind_id": "",
     "bind_no": "",
-    "name": "",
+    "name": "jiagongzhongxin",
     "url": "model/jiagongzhongxin/jiagongzhongxin.dae",
     "scale": {
         "x": 0.3,
@@ -326,7 +326,7 @@
     "id": "A_CNC013",
     "bind_id": "",
     "bind_no": "",
-    "name": "",
+    "name": "jiagongzhongxin",
     "url": "model/jiagongzhongxin/jiagongzhongxin.dae",
     "scale": {
         "x": 0.3,
@@ -353,7 +353,7 @@
     "id": "A_CNC014",
     "bind_id": "",
     "bind_no": "",
-    "name": "",
+    "name": "jiagongzhongxin",
     "url": "model/jiagongzhongxin/jiagongzhongxin.dae",
     "scale": {
         "x": 0.3,
@@ -380,7 +380,7 @@
     "id": "A_CNC015",
     "bind_id": "",
     "bind_no": "",
-    "name": "",
+    "name": "AVG",
     "url": "model/avg/AVG.dae",
     "scale": {
         "x": 0.3,
@@ -407,7 +407,7 @@
     "id": "A_CNC016",
     "bind_id": "",
     "bind_no": "",
-    "name": "",
+    "name": "mazak",
     "url": "model/mazak/mazak.dae",
     "scale": {
         "x": 0.3,
@@ -434,7 +434,7 @@
     "id": "A_CNC017",
     "bind_id": "",
     "bind_no": "",
-    "name": "",
+    "name": "mazak",
     "url": "model/mazak/mazak.dae",
     "scale": {
         "x": 0.3,
@@ -461,7 +461,7 @@
     "id": "A_CNC018",
     "bind_id": "",
     "bind_no": "",
-    "name": "",
+    "name": "mazak",
     "url": "model/mazak/mazak.dae",
     "scale": {
         "x": 0.3,
@@ -488,7 +488,7 @@
     "id": "A_CNC019",
     "bind_id": "",
     "bind_no": "",
-    "name": "",
+    "name": "mazak",
     "url": "model/mazak/mazak.dae",
     "scale": {
         "x": 0.3,
@@ -515,7 +515,7 @@
     "id": "A_CNC020",
     "bind_id": "",
     "bind_no": "",
-    "name": "",
+    "name": "hanjieji",
     "url": "model/hanjieji/hanjieji.dae",
     "scale": {
         "x": 0.3,
@@ -542,7 +542,7 @@
     "id": "A_CNC021",
     "bind_id": "",
     "bind_no": "",
-    "name": "",
+    "name": "hanjieji",
     "url": "model/hanjieji/hanjieji.dae",
     "scale": {
         "x": 0.3,
@@ -569,7 +569,7 @@
     "id": "A_CNC022",
     "bind_id": "",
     "bind_no": "",
-    "name": "",
+    "name": "hanjieji",
     "url": "model/hanjieji/hanjieji.dae",
     "scale": {
         "x": 0.3,
@@ -596,7 +596,7 @@
     "id": "A_CNC023",
     "bind_id": "",
     "bind_no": "",
-    "name": "",
+    "name": "hanjieji",
     "url": "model/hanjieji/hanjieji.dae",
     "scale": {
         "x": 0.3,
@@ -623,7 +623,7 @@
     "id": "A_CNC024",
     "bind_id": "",
     "bind_no": "",
-    "name": "",
+    "name": "guanjiejiqiren",
     "url": "model/guanjiejiqiren/guanjiejiqiren.dae",
     "scale": {
         "x": 0.3,
@@ -650,7 +650,7 @@
     "id": "A_CNC025",
     "bind_id": "",
     "bind_no": "",
-    "name": "",
+    "name": "guanjiejiqiren",
     "url": "model/guanjiejiqiren/guanjiejiqiren.dae",
     "scale": {
         "x": 0.3,
@@ -677,7 +677,7 @@
     "id": "A_CNC026",
     "bind_id": "",
     "bind_no": "",
-    "name": "",
+    "name": "qinxiji",
     "url": "model/qinxiji/qinxiji.dae",
     "scale": {
         "x": 0.2,
@@ -704,17 +704,44 @@
     "id": "A_CNC027",
     "bind_id": "",
     "bind_no": "",
-    "name": "",
+    "name": "cangku",
     "url": "model/cangku/cangku.dae",
+    "scale": {
+        "x": 0.5,
+        "y": 0.4,
+        "z": 0.4
+    },
+    "position": {
+        "x": 290,
+        "y": 0,
+        "z": 60
+    },
+    "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "display1": {
+        "position": [270, 70, 10]
+    },
+    "display2": {
+
+    }
+},{
+    "id": "A_CNC028",
+    "bind_id": "",
+    "bind_no": "",
+    "name": "daogui",
+    "url": "model/daogui/daogui.dae",
     "scale": {
         "x": 0.3,
         "y": 0.3,
         "z": 0.3
     },
     "position": {
-        "x": 260,
+        "x": -280,
         "y": 0,
-        "z": 60
+        "z": 120
     },
     "rotation": {
         "x": 0,
