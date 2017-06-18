@@ -20,7 +20,7 @@ var sun = new Sun( {
         var runRatio = new drawRunRatio( {
             id: 'runratio'
         } )
-        var socket = io( 'http://192.168.0.104:5000' );
+        var socket = io( 'http://' + window.location.host );
         socket.on( 'getMacStatus', function ( res ) {
             console.log( res );
             if ( res.status == 0 ) {
