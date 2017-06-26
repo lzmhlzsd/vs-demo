@@ -44,6 +44,13 @@ io.on( 'connection', function ( socket ) {
     } );//
 } );
 
+function getParam( url, name ) {
+    var reg = new RegExp( "(^|&)" + name + "=([^&]*)(&|$)", "i" );
+    var r = url.match( reg );
+    if ( r != null ) return unescape( r[2] );
+    return null;
+}
+
 var room = ["a", "b"]
 setInterval( function () {
     getMacStatus_s( 1, function ( res ) {
