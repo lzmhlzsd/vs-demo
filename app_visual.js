@@ -11,6 +11,7 @@ var rooms = {
     1: 'a',
     2: 'b'
 }
+var server_url = "http://192.168.60.2:8088/api/services/app/wimiVisual"
 
 app.use( express.static( path.join( __dirname, 'web' ) ) );
 server.listen( 5000, function () {
@@ -171,28 +172,63 @@ function getParam( url, name ) {
 
 var room = ["a", "b"]
 setInterval( function () {
-    getMacStatus( 'A', function ( res ) {
-        io.to( 1 ).emit( 'getMacStatus', res )
-    } )
-    getMacStatus( 'B', function ( res ) {
-        io.to( 2 ).emit( 'getMacStatus', res )
-    } )
+    // getMacStatus_s( 'A', function ( res ) {
+    //     console.log( res );
+    //     io.to( 1 ).emit( 'getMacStatus', res )
+    // } )
+    // getMacStatus_s( 'B', function ( res ) {
+    //     io.to( 2 ).emit( 'getMacStatus', res )
+    // } )
 }, 5000 )
 
 setInterval( function () {
-    getAlarmInfo( 'A', function ( res ) {
+    getAlarmInfo_s( 'A', function ( res ) {
         io.to( 1 ).emit( 'getAlarmInfo', res )
     } )
-    getAlarmInfo( 'B', function ( res ) {
+    getAlarmInfo_s( 'B', function ( res ) {
         io.to( 2 ).emit( 'getAlarmInfo', res )
     } )
-    getStatusRatio( 'A', function ( res ) {
+    getStatusRatio_s( 'A', function ( res ) {
         io.to( 1 ).emit( 'getStatusRatio', res )
     } )
-    getStatusRatio( 'B', function ( res ) {
+    getStatusRatio_s( 'B', function ( res ) {
         io.to( 2 ).emit( 'getStatusRatio', res )
     } )
 }, 10000 )
+
+function getMacStatus_s( room, callback ) {
+    request.get( server_url + '/getMacStatus',
+        { key: 'value' }, function ( error, response, data ) {
+            var d = JSON.parse( data );
+            console.log('/getMacStatus')
+            console.log(d.result)
+            callback( d.result )
+        } )
+}
+
+function getAlarmInfo_s( room, callback ) {
+    request.get( server_url + '/getAlarmInfo',
+        { key: 'value' }, function ( error, response, data ) {
+            var d = JSON.parse( data );
+            console.log('/getAlarmInfo')
+            console.log(d.result)
+            callback( d.result )
+        } )
+}
+
+function getStatusRatio_s( room, callback ) {
+    request.get( server_url + '/getStatusRatio',
+        { key: 'value' }, function ( error, response, data ) {
+            var d = JSON.parse( data );
+            console.log('/getStatusRatio')
+            console.log(d.result)
+            callback( d.result )
+        } )
+}
+
+
+
+
 
 function getMacStatus( room, callback ) {
     var date = new Date();

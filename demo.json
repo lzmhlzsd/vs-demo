@@ -1,0 +1,73 @@
+{
+    "getMacStatus": {
+        "result": {
+            "status": 0,
+            "message": "请求成功",
+            "data": [ {
+                "mac_id": 1,
+                "mac_no": "OP2",
+                "mac_name": "OP2",
+                "stats_id": 2,
+                "order_no": "",
+                "person": "Leo",
+                "yield": 100
+            }, {
+                "mac_id": 2,
+                "mac_no": "OP2",
+                "mac_name": "OP2",
+                "stats_id": 2,
+                "order_no": "",
+                "person": "Leo",
+                "yield": 100
+            } ]
+        },
+        "targetUrl": null,
+        "success": true,
+        "error": null
+    },
+    "getAlarmInfo": {
+        "result": {
+            "status": 0,
+            "message": "请求成功",
+            "data": [ {
+                "name": "B001",
+                "alarm": "1001",
+                "time": 1497876000
+            }, {
+                "name": "B001",
+                "alarm": "1001",
+                "time": 1497876000
+            } ]
+        },
+        "targetUrl": null,
+        "success": true,
+        "error": null
+    },
+    "getStatusRatio": {
+        "result": {
+            "status": 0,
+            "message": "请求成功",
+            "data": [ {
+                "runRatio": 0.65,
+                "stopRatio": 0.15,
+                "runTop": [ {
+                    "name": "B001",
+                    "value": 0.65
+                }, {
+                    "name": "B002",
+                    "value": 0.55
+                } ],
+                "stopTop": [ {
+                    "name": "B001",
+                    "value": 0.25
+                }, {
+                    "name": "B002",
+                    "value": 0.15
+                } ]
+            } ]
+        },
+        "targetUrl": null,
+        "success": true,
+        "error": null
+    }
+}
