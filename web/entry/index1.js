@@ -28,7 +28,7 @@ var sun = new Sun( {
                     status_id: 2
                 } ).length )
                 $( '#alarm-num' ).html( _.where( res.data, {
-                    status_id: 3
+                    status_id: 1
                 } ).length )
                 self.updateDisplay( res.data );
             }
