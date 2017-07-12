@@ -10,7 +10,7 @@
         "z": 0.3
     },
     "position": {
-        "x": -279,
+        "x": -171,
         "y": -2,
         "z": -80
     },
@@ -37,7 +37,7 @@
         "z": 0.3
     },
     "position": {
-        "x": -216,
+        "x": -130,
         "y": -2,
         "z": -80
     },
@@ -64,7 +64,7 @@
         "z": 0.3
     },
     "position": {
-        "x": -153,
+        "x": -89,
         "y": -2,
         "z": -80
     },
@@ -91,7 +91,7 @@
         "z": 0.3
     },
     "position": {
-        "x": -90,
+        "x": -47,
         "y": -2,
         "z": -80
     },
@@ -118,7 +118,7 @@
         "z": 0.3
     },
     "position": {
-        "x": -27,
+        "x": -6,
         "y": -2,
         "z": -80
     },
@@ -145,7 +145,7 @@
         "z": 0.3
     },
     "position": {
-        "x": 36,
+        "x": 35,
         "y": -2,
         "z": -80
     },
@@ -172,7 +172,7 @@
         "z": 0.3
     },
     "position": {
-        "x": 99,
+        "x": 77,
         "y": -2,
         "z": -80
     },
@@ -199,9 +199,9 @@
         "z": 0.3
     },
     "position": {
-        "x": -279,
+        "x": 118,
         "y": -2,
-        "z": 37
+        "z": -80
     },
     "rotation": {
         "x": 0,
@@ -226,9 +226,9 @@
         "z": 0.3
     },
     "position": {
-        "x": -216,
+        "x": 159,
         "y": -2,
-        "z": 37
+        "z": -80
     },
     "rotation": {
         "x": 0,
@@ -253,7 +253,7 @@
         "z": 0.3
     },
     "position": {
-        "x": -153,
+        "x": 159,
         "y": -2,
         "z": 37
     },
@@ -263,7 +263,7 @@
         "z": 0
     },
     "display1": {
-        "position": [-140, 50, 15]
+        "position": [-200, 50, 15]
     },
     "display2": {
 
@@ -280,7 +280,7 @@
         "z": 0.3
     },
     "position": {
-        "x": -90,
+        "x": 118,
         "y": -2,
         "z": 37
     },
@@ -290,7 +290,7 @@
         "z": 0
     },
     "display1": {
-        "position": [-80, 50, 15]
+        "position": [-200, 50, 15]
     },
     "display2": {
 
@@ -307,7 +307,7 @@
         "z": 0.3
     },
     "position": {
-        "x": -27,
+        "x": 77,
         "y": -2,
         "z": 37
     },
@@ -317,7 +317,7 @@
         "z": 0
     },
     "display1": {
-        "position": [-20, 50, 15]
+        "position": [-200, 50, 15]
     },
     "display2": {
 
@@ -334,7 +334,7 @@
         "z": 0.3
     },
     "position": {
-        "x": 36,
+        "x": 35,
         "y": -2,
         "z": 37
     },
@@ -344,7 +344,7 @@
         "z": 0
     },
     "display1": {
-        "position": [40, 50, 15]
+        "position": [100, 50, -85]
     },
     "display2": {
 
@@ -361,7 +361,7 @@
         "z": 0.3
     },
     "position": {
-        "x": 99,
+        "x": -6,
         "y": -2,
         "z": 37
     },
@@ -371,13 +371,202 @@
         "z": 0
     },
     "display1": {
-        "position": [100, 50, 15]
+        "position": [40, 50, -85]
     },
     "display2": {
 
     }
 }, {
     "id": "B_CNC015",
+    "bind_id": "",
+    "bind_no": "",
+    "name": "workbache",
+    "url": "model/workbache/workbache.dae",
+    "scale": {
+        "x": 0.3,
+        "y": 0.3,
+        "z": 0.3
+    },
+    "position": {
+        "x": -47,
+        "y": -2,
+        "z": 37
+    },
+    "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "display1": {
+        "position": [-20, 50, -85]
+    },
+    "display2": {
+
+    }
+}, {
+    "id": "B_CNC016",
+    "bind_id": "",
+    "bind_no": "",
+    "name": "workbache",
+    "url": "model/workbache/workbache.dae",
+    "scale": {
+        "x": 0.3,
+        "y": 0.3,
+        "z": 0.3
+    },
+    "position": {
+        "x": -89,
+        "y": -2,
+        "z": 37
+    },
+    "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "display1": {
+        "position": [-80, 50, -85]
+    },
+    "display2": {
+
+    }
+}, {
+    "id": "B_CNC017",
+    "bind_id": "",
+    "bind_no": "",
+    "name": "workbache",
+    "url": "model/workbache/workbache.dae",
+     "scale": {
+        "x": 0.3,
+        "y": 0.3,
+        "z": 0.3
+    },
+    "position": {
+        "x": -130,
+        "y": -2,
+        "z": 37
+    },
+    "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "display1": {
+        "position": [-140, 50, -85]
+    },
+    "display2": {
+
+    }
+}, {
+    "id": "B_CNC018",
+    "bind_id": "",
+    "bind_no": "",
+    "name": "workbache",
+    "url": "model/workbache/workbache.dae",
+    "scale": {
+        "x": 0.3,
+        "y": 0.3,
+        "z": 0.3
+    },
+    "position": {
+        "x": -171,
+        "y": -2,
+        "z": 37
+    },
+    "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "display1": {
+        "position": [-200, 50, -85]
+    },
+    "display2": {
+
+    }
+}, {
+    "id": "B_CNC019",
+    "bind_id": "",
+    "bind_no": "",
+    "name": "workbache",
+    "url": "model/workbache/workbache.dae",
+    "scale": {
+        "x": 0.3,
+        "y": 0.3,
+        "z": 0.3
+    },
+    "position": {
+        "x": -213,
+        "y": -2,
+        "z": 37
+    },
+    "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "display1": {
+        "position": [-200, 50, -85]
+    },
+    "display2": {
+
+    }
+}, {
+    "id": "B_CNC020",
+    "bind_id": "",
+    "bind_no": "",
+    "name": "plc",
+    "url": "model/plc/plc.dae",
+    "scale": {
+        "x": 0.3,
+        "y": 0.3,
+        "z": 0.3
+    },
+    "position": {
+        "x": -242,
+        "y": 0,
+        "z": -22
+    },
+    "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "display1": {
+        "position": [-200, 50, -85]
+    },
+    "display2": {
+
+    }
+}, {
+    "id": "B_CNC021",
+    "bind_id": "",
+    "bind_no": "",
+    "name": "plc",
+    "url": "model/plc/plc.dae",
+    "scale": {
+        "x": 0.3,
+        "y": 0.3,
+        "z": 0.3
+    },
+    "position": {
+        "x": -242,
+        "y": 0,
+        "z": -48
+    },
+    "rotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+    },
+    "display1": {
+        "position": [-200, 50, -85]
+    },
+    "display2": {
+
+    }
+}, {
+    "id": "B_CNC022",
     "bind_id": "",
     "bind_no": "",
     "name": "avg1",
@@ -403,8 +592,9 @@
     "display2": {
 
     }
-}, {
-    "id": "B_CNC016",
+}, 
+{
+    "id": "B_CNC023",
     "bind_id": "",
     "bind_no": "",
     "name": "cangku",
@@ -431,18 +621,18 @@
 
     }
 }, {
-    "id": "B_CNC017",
+    "id": "B_CNC024",
     "bind_id": "",
     "bind_no": "",
     "name": "daogui",
-    "url": "model/daogui/daogui4.dae",
+    "url": "model/daogui/daogui5.dae",
     "scale": {
         "x": 0.3,
         "y": 0.3,
         "z": 0.3
     },
     "position": {
-        "x": -280,
+        "x": -220,
         "y": 0,
         "z": 0
     },
@@ -457,4 +647,5 @@
     "display2": {
 
     }
-}]
+}
+]
