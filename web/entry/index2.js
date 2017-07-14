@@ -39,7 +39,7 @@ var sun = new Sun( {
                 $( '#alarm-times' ).html( res.data.total )
                 var html = ''
                 for ( var i = 0; i < res.data.list.length; i++ ) {
-                    html += '<tr><td>' + res.data.list[i].name +
+                    html += '<tr><td>' + res.data.list[i].name.split('_')[0] +
                         '</td><td>' + res.data.list[i].alarm +
                         '</td><td>' + moment( res.data.list[i].time ).format(
                             'HH:mm' ) +
